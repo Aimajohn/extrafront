@@ -1,0 +1,17 @@
+extend plantilla.pug 
+block landing
+		section.intro
+			.intro__imagen: img(src="/images/imagen.png", alt="imagen generica")
+			.intro__contenido
+				h1 #{titulos[0]}
+				p Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores at repellendus necessitatibus alias saepe ad veniam veritatis repellat soluta ullam!
+					span Hola bb Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, modi.
+				a.boton Leer más
+		// ul 
+			// hola pues ya aprendí jeje
+			each titulo in titulos
+				li= titulo 
+		main.contenido
+			+caja('imagen.png',titulos[1],'Lorem ipsum dolor, sit amet consectetur adipisicing.')
+			+caja('imagen.png',titulos[1],'Lorem ipsum dolor, sit amet consectetur adipisicing.')
+			+caja('imagen.png',titulos[1],'Lorem ipsum dolor, sit amet consectetur adipisicing.')
