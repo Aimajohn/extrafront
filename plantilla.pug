@@ -1,20 +1,10 @@
--var titulos = [ "Título Principal" , "Subítulo1", "Subítulo2", "Subítulo3" ]
--var usuario = "John"
-mixin caja(imagen, titulo, Lorem)
-	.caja
-		.caja__imagen: img(src="/images/"+imagen , alt="")
-		.caja__contenido
-			h3= titulo 
-			p= Lorem
-			a(href="").buton Leer mas
+include conf.pug
 doctype html
-html
-include head.pug
-body
-    header        
-     h1 PlatziGames
-        if usuario 
-            a Hola #{usuario}
-        else
+html(lang="en")
+    include head.pug 
+    body
+        header
+            h1 PlatziJuegos
             a.boton Registro
-    block landing 
+        block kk
+        include footer.pug
