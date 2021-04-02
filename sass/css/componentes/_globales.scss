@@ -1,16 +1,22 @@
-$fuente1: 'Lato', 'sans-serif';
-$fuente2: 'Oswald', 'sans-serif';
+$Fuente1: 'Lato', sans-serif;
+$Fuente2: 'Oswald', sans-serif;
 $color-primario: #333333;
-$color-claro: #fff;
-$color-secundario: #8841DA;
+$color-claro: #FFFFFF;
+$color-secundario: #7228c7;
 $color-variacion: #3f579a;
+@mixin caja{
+	background-color: $color-claro;
+	box-shadow:0 20px 33px 0 rgba(0, 0, 0, 0.50);
+	color: $color-primario;
+	border-radius: 20px;
+}
 * {
 	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
-	font-family: $fuente1;
+	font-family: $Fuente1;
 }
 
 main {

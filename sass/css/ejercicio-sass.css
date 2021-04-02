@@ -5,7 +5,7 @@
 
 body {
   margin: 0;
-  font-family: "Lato", "sans-serif";
+  font-family: "Lato", sans-serif;
 }
 
 main {
@@ -17,10 +17,10 @@ main {
 }
 
 .perfil {
-  background-color: #8841DA;
-  color: #fff;
   width: 50%;
   padding-top: 50px;
+  color: #FFFFFF;
+  background-color: #7228c7;
 }
 
 .perfil__avatar {
@@ -33,7 +33,7 @@ main {
   text-transform: uppercase;
   text-align: center;
   font-size: 20px;
-  font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", sans-serif;
 }
 
 .perfil__titulo, .perfil__minibio h3 {
@@ -53,24 +53,30 @@ main {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
-  font-family: "Oswald", "sans-serif";
-  color: #fff;
+  font-family: "Oswald", sans-serif;
+  color: #FFFFFF;
+}
+
+.perfil__minibio {
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
 .estadistica--perfil {
-  color: #333333;
-  width: 400px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  width: 50%;
   height: 90px;
-  -webkit-padding-before: 15px;
-          padding-block-start: 15px;
+  padding-top: 15px;
   margin: 0 auto;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+  color: #333333;
   border-radius: 20px;
-  background-color: #fff;
 }
 
 .estadistica--perfil h3 {
@@ -78,31 +84,32 @@ main {
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", sans-serif;
 }
 
 .estadistica--perfil span {
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", sans-serif;
 }
 
 .ubicacion--perfil {
-  width: 400px;
+  width: 50%;
   height: 90px;
   margin: 30px auto 0 auto;
   padding: 20px 0 0 50px;
-  border-radius: 20px;
-  background-color: #fff;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: 0 20px 33px 0 rgba(0, 0, 0, 0.5);
   color: #333333;
+  border-radius: 20px;
 }
 
 .ubicacion--perfil i {
   display: block;
   float: left;
-  -webkit-padding-end: 10px;
-          padding-inline-end: 10px;
+  padding-right: 10px;
   font-size: 40px;
   color: #3f579a;
 }
@@ -111,18 +118,12 @@ main {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 20px;
-  font-family: "Oswald", "sans-serif";
+  font-family: "Oswald", sans-serif;
 }
 
 .ubicacion--perfil h3 {
   text-transform: uppercase;
   font-size: 12px;
-  font-family: "Oswald", "sans-serif";
-}
-
-.perfil__minibio {
-  margin: 0 auto;
-  -webkit-padding-before: 20px;
-          padding-block-start: 20px;
+  font-family: "Oswald", sans-serif;
 }
 /*# sourceMappingURL=ejercicio-sass.css.map */
