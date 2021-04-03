@@ -1,0 +1,29 @@
+.footer--principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    width: 100%;
+    padding: 0 20px;
+    background-color:$color-primario;
+}
+.nav--footer ul{
+    @include lista;
+    margin: 0;
+    a{
+    color: $color-claro;
+    }
+    li{
+        margin: 0 10px;
+    }
+}
+.nav--social ul{
+    margin: 0;
+   @include lista;
+   li{
+       margin: 0 10px;
+   }
+   a{
+       color: $color-claro;
+   }
+}

@@ -1,0 +1,53 @@
+.contenedor--home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    @include media(desktop-s){
+    height: 1200px;
+    width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template: repeat(4, 1fr) / repeat(4, 1fr);
+}
+}
+.caja--grande{
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+}
+
+.caja--pequeña{
+    grid-column: 3 / 4;
+    grid-row: 0 / 1;
+}
+.banner--homepage{
+    grid-column: 4 / 5;
+    grid-row: 2 / 4;
+}
+.caja--mediana{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+}
+.sidebar--listado{
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+}
+.caja--xbox{
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+.caja-fornite{
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+}
+.caja-ff{
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+}
+.caja-rdr2{
+    grid-row: 1 / 2;
+    grid-column: 4 / 5;
+}
+.caja-zelda{
+    grid-row: 3 / 4;
+    grid-column: 2 / 4;
+}
